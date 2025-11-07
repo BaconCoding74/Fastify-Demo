@@ -1,8 +1,8 @@
 {
     "compilerOptions": {
-        "target": "ES2024", // Version of scripting language standard
-        "module": "ESNext", // Module system of TS compiler
-        "moduleResolution": "Node", // Algorithm in resolving imported module files
+        "target": "ESNext", // Version of scripting language standard
+        "module": "NodeNext", // Module system of TS compiler
+        "moduleResolution": "NodeNext", // Algorithm in resolving imported module files
         "strict": true, // Strictly guarantee the correctness of code based on the standard
         "esModuleInterop": true, // Enable compatibility of import between ES and CommonJS modules
         "skipLibCheck": true, // Skip type checking of declaration files 

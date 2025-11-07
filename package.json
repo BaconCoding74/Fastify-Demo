@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --build",
-    "start": "dist/index.js",
+    "start": "dist/server.js",
     "dev": "nodemon"
   },
   "keywords": [],
@@ -14,6 +14,8 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "@fastify/cors": "^11.1.0",
+    "dotenv": "^17.2.3",
     "fastify": "^5.6.1"
   },
   "devDependencies": {
