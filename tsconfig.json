@@ -8,5 +8,9 @@
         "skipLibCheck": true, // Skip type checking of declaration files 
         "outDir": "dist", // Output of built file
         "rootDir": "src", // Root file
-    }
+        "types": ["node"],
+        "typeRoots": ["./src/types", "./node_modules/@types"] // Root of type files
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules", "dist"]
 }

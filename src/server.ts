@@ -9,4 +9,4 @@ app.listen({port: config.app.port}, (err, add) => {
         app.log.error(err);
         process.exit(1);
     }
-})
+});
